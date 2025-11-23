@@ -3,7 +3,8 @@ using UnityEngine;
 
 public class CollectObjects : MonoBehaviour
 {
-    [SerializeField] [Tooltip("Cheese counter UI text")]
+    [SerializeField]
+    [Tooltip("Cheese counter UI text")]
     TextMeshProUGUI CheeseCounterText;
 
     [SerializeField] string triggeringTag;

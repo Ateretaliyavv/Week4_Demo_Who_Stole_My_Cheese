@@ -35,6 +35,6 @@ public class MouseCollision : MonoBehaviour
                 int numberToSub = uiCounter.GetNumberUI() - CheeseKgToSub;
                 uiCounter.SetNumberUI(numberToSub);
             }
-        }   
+        }
     }
 }
